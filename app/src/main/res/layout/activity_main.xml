@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/team_b_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Animal Question"/>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YES"
+            />
+        <RadioButton
+            android:id="@+id/radio_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Beauty Question"/>
+    <CheckBox
+        android:id="@+id/rachel_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rachel"/>
+    <CheckBox
+        android:id="@+id/leah_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leah"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Meaning of Sarah"/>
+    <EditText
+        android:id="@+id/sarah-field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Disciple question"/>
+    <CheckBox
+        android:id="@+id/peter_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peter"/>
+    <CheckBox
+        android:id="@+id/paul_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paul"/>
+    <CheckBox
+        android:id="@+id/john_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Who killed Abel"/>
+    <EditText
+        android:id="@+id/abel-field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_display"
+        android:onClick="addOneForTeamB"/>
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="setToZero"/>
+
+</LinearLayout>
